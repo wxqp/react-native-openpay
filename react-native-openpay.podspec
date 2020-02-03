@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/wxqp/react-native-openpay", :tag => "v#{s.version}" }
-  s.source_files  = "RNOpenpay.{h,m}"
+  s.source_files  = "RNOpenpay/RNOpenpay.{h,m}"
 
   s.dependency 'React'
 end
