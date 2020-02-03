@@ -11,6 +11,7 @@
 		1681AC1E1D80E0E300374492 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1681AC1D1D80E0E300374492 /* CoreLocation.framework */; };
 		169E77621D7E0FBB004B7E11 /* RNOpenpay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 169E77611D7E0FBB004B7E11 /* RNOpenpay.h */; };
 		169E77641D7E0FBB004B7E11 /* RNOpenpay.m in Sources */ = {isa = PBXBuildFile; fileRef = 169E77631D7E0FBB004B7E11 /* RNOpenpay.m */; };
+		EC2F808423E7E7E00022AA20 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2F808023E7E6830022AA20 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		169E775E1D7E0FBB004B7E11 /* libRNOpenpay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNOpenpay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		169E77611D7E0FBB004B7E11 /* RNOpenpay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNOpenpay.h; sourceTree = "<group>"; };
 		169E77631D7E0FBB004B7E11 /* RNOpenpay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNOpenpay.m; sourceTree = "<group>"; };
+		EC2F808023E7E6830022AA20 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2F808423E7E7E00022AA20 /* JavaScriptCore.framework in Frameworks */,
 				1681AC1E1D80E0E300374492 /* CoreLocation.framework in Frameworks */,
 				1681AC1C1D80E0CC00374492 /* openpay.a in Frameworks */,
 			);
@@ -58,6 +61,7 @@
 				1681AC1D1D80E0E300374492 /* CoreLocation.framework */,
 				169E77601D7E0FBB004B7E11 /* RNOpenpay */,
 				169E775F1D7E0FBB004B7E11 /* Products */,
+				EC2F807F23E7E6820022AA20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +86,14 @@
 				169E77631D7E0FBB004B7E11 /* RNOpenpay.m */,
 			);
 			path = RNOpenpay;
+			sourceTree = "<group>";
+		};
+		EC2F807F23E7E6820022AA20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2F808023E7E6830022AA20 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +122,7 @@
 		169E77561D7E0FBB004B7E11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = corb;
 				TargetAttributes = {
 					169E775D1D7E0FBB004B7E11 = {
@@ -156,14 +168,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -206,14 +226,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
